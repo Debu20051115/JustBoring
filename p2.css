@@ -1,0 +1,77 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html,body{height: 100%;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;}
+#main{height: 100%;width: 100%;display: flex;padding: 80px 15vh;justify-content: space-between;}
+#left{height: 100%;
+width: 50%;
+margin-left: 5%;
+/* background-color: red; */}
+#left h1{font-size: 16vh;
+font-weight: 400;
+line-height: 13vh;}
+#left #colors{margin-top: 22vh;
+border: black 1px solid;
+width: fit-content;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 15px;
+gap: 10px;}
+#colors h3{font-weight: 400;}
+#left .elem1{background-color: aqua;
+height: 20px;
+width: 20px;
+border-radius: 50%;}
+#left .elem2{background-color:palegreen;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;}
+#details h1{font-size: 3vh;
+font-weight: 600;}
+#details p{margin-top: -30px;
+width: 60%;
+line-height: 25px;
+font-weight: 500;}
+
+#right{height: 100%;
+width: 40%;
+/* background-color: blue; */
+padding: 40px 80px;
+position: relative;
+margin-right: 5%;
+}
+#right-top{display: flex;
+justify-content: space-between;
+width: 100%;}
+#right-top h1{font-size: 2vh;}
+#right-top h2{font-size: 1.5vh;}
+
+#right-bottom img{height: 88%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+#right-bottom #ball{
+    display: flex;
+    height:190px;
+    width:190px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+    right: -5%;
+    border-radius: 100%;
+}
+#ball h1{font-size: 3vh;
+font-weight: 200;}
+#rotated-text h1{transform: rotate(-90deg);
+position: absolute;
+left: 5%;
+transform-origin: 0 0;}
